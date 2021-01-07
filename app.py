@@ -1,9 +1,4 @@
-import requests
+#imports 
+import random
 
-res = requests.get(
-    'https://codedamn-classrooms.github.io/webscraper-python-codedamn-classroom-website/')
-txt = res.text
-status = res.status_code
-
-print(txt, status)
-# print the result
+num_of_stocks = int(input("How many different shares of stocks do you want? "))   # number of desired stocks
